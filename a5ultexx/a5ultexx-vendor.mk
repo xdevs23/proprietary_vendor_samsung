@@ -17,17 +17,5 @@
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS += vendor/samsung/a5ultexx/overlay
 
-PRODUCT_PACKAGES += \
-    com.qualcomm.location
-
-PRODUCT_PACKAGES += \
-    libtime_genoff \
-    TimeService
-
-PRODUCT_PACKAGES += \
-    libmm-abl
-
-PRODUCT_PACKAGES += \
-    libHevcSwDecoder
 
 $(call inherit-product, vendor/samsung/a5ultexx/a5ultexx-vendor-blobs.mk)
