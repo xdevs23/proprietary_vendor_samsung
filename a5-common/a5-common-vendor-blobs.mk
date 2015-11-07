@@ -229,7 +229,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5-common/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/samsung/a5-common/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     vendor/samsung/a5-common/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
-    vendor/samsung/a5-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/samsung/a5-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/samsung/a5-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/a5-common/proprietary/bin/time_daemon:system/bin/time_daemon \
