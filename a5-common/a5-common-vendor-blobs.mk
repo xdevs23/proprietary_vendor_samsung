@@ -173,8 +173,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/samsung/a5-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/samsung/a5-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/samsung/a5-common/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/firmware/a330_pfp.fw \
-    vendor/samsung/a5-common/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/firmware/a330_pm4.fw \
+    vendor/samsung/a5-common/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
+    vendor/samsung/a5-common/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
     vendor/samsung/a5-common/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
