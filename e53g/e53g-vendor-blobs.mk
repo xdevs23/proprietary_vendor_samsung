@@ -220,7 +220,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     $(LOCAL_PATH)/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     $(LOCAL_PATH)/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/firmware/a330_pfp.fw \
-    $(LOCAL_PATH)/proprietary/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/firmware/a330_pm4.fw \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/firmware/a330_pm4.fw \
     $(LOCAL_PATH)/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     $(LOCAL_PATH)/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw
 
