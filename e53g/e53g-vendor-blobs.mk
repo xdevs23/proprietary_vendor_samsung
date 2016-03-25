@@ -262,7 +262,7 @@ PRODUCT_COPY_FILES += \
 
 # Perfd
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/bin/perfd:system/bin/perfd \
+    $(LOCAL_PATH)/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     $(LOCAL_PATH)/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
 
 # Postprocessing
