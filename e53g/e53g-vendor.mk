@@ -16,7 +16,6 @@
 
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
-    libHevcSwDecoder \
     TimeService
 
 $(call inherit-product, vendor/samsung/e53g/e53g-vendor-blobs.mk)
