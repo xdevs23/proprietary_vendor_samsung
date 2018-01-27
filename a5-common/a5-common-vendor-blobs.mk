@@ -231,7 +231,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/samsung/a5-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/samsung/a5-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/samsung/a5-common/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
+    vendor/samsung/a5-common/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.vendor.msm8916.so \
     vendor/samsung/a5-common/proprietary/lib/libalgobsx.so:system/lib/libalgobsx.so \
     vendor/samsung/a5-common/proprietary/lib/hw/nfc_nci.msm8916.so:system/lib/hw/nfc_nci.msm8916.so \
     vendor/samsung/a5-common/proprietary/etc/sec_s3fwrn5_rfreg.bin:system/etc/sec_s3fwrn5_rfreg.bin \
@@ -254,5 +254,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
-    vendor/samsung/a5-common/proprietary/lib/libatparser.so:system/lib/libatparser.so
+    vendor/samsung/a5-common/proprietary/lib/libatparser.so:system/lib/libatparser.so \
+    vendor/samsung/a5-common/proprietary/lib/libstlport.so:system/lib/libstlport.so
 
