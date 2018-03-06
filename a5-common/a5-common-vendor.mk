@@ -17,14 +17,12 @@
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS += vendor/samsung/a5-common/overlay
 
-#PRODUCT_PACKAGES += \
-#    com.qualcomm.location
-
 PRODUCT_PACKAGES += \
     libtime_genoff \
-    TimeService
-
-PRODUCT_PACKAGES += \
-    libmm-abl
+    TimeService \
+    libmm-abl \
+    libloc_api_v02 \
+    libloc_ds_api \
+    vendor.qti.hardware.fm@1.0
 
 $(call inherit-product, vendor/samsung/a5-common/a5-common-vendor-blobs.mk)
