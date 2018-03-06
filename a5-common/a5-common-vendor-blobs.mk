@@ -118,11 +118,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/a5-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/samsung/a5-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/samsung/a5-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/samsung/a5-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/samsung/a5-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/samsung/a5-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/samsung/a5-common/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
@@ -188,8 +185,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5-common/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/samsung/a5-common/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/samsung/a5-common/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
-    vendor/samsung/a5-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/samsung/a5-common/proprietary/lib/hw/audio.primary.msm8916.so:system/lib/hw/audio.primary.msm8916.so \
+    vendor/samsung/a5-common/proprietary/vendor/lib/hw/audio.primary.msm8916.so:system/vendor/lib/hw/audio.primary.msm8916.so \
     vendor/samsung/a5-common/proprietary/lib/libSamsungPreProcess.so:system/lib/libSamsungPreProcess.so \
     vendor/samsung/a5-common/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
     vendor/samsung/a5-common/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
@@ -228,6 +224,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/samsung/a5-common/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/samsung/a5-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/samsung/a5-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/samsung/a5-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
