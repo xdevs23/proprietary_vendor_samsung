@@ -16,7 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/a5-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/samsung/a5-common/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
+    vendor/samsung/a5-common/proprietary/lib/hw/camera.msm8916.so:system/vendor/lib/hw/camera.vendor.msm8916.so \
     vendor/samsung/a5-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libactuator_dw9804_a7_camcorder.so:system/vendor/lib/libactuator_dw9804_a7_camcorder.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libactuator_dw9804_a7_camera.so:system/vendor/lib/libactuator_dw9804_a7_camera.so \
@@ -208,6 +208,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5-common/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/samsung/a5-common/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
     vendor/samsung/a5-common/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
+    vendor/samsung/a5-common/proprietary/lib/libtinyalsa2.so:system/lib/libtinyalsa2.so \
     vendor/samsung/a5-common/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
     vendor/samsung/a5-common/proprietary/lib/soundfx/libaudioeffectoffload.so:system/lib/soundfx/libaudioeffectoffload.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
@@ -228,9 +229,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/samsung/a5-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/samsung/a5-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/samsung/a5-common/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.vendor.msm8916.so \
+    vendor/samsung/a5-common/proprietary/lib/hw/sensors.msm8916.so:system/vendor/lib/hw/sensors.vendor.msm8916.so \
     vendor/samsung/a5-common/proprietary/lib/libalgobsx.so:system/lib/libalgobsx.so \
-    vendor/samsung/a5-common/proprietary/lib/hw/nfc_nci.msm8916.so:system/lib/hw/nfc_nci.msm8916.so \
+    vendor/samsung/a5-common/proprietary/lib/hw/nfc_nci.msm8916.so:system/vendor/lib/hw/nfc_nci.msm8916.so \
     vendor/samsung/a5-common/proprietary/etc/sec_s3fwrn5_rfreg.bin:system/etc/sec_s3fwrn5_rfreg.bin \
     vendor/samsung/a5-common/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:system/vendor/firmware/sec_s3fwrn5_firmware.bin \
     vendor/samsung/a5-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
