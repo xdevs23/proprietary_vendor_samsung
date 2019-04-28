@@ -106,10 +106,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5-common/proprietary/lib/libawb_algo_rear_al.so:system/lib/libawb_algo_rear_al.so \
     vendor/samsung/a5-common/proprietary/lib/libawb_algo_front_al.so:system/lib/libawb_algo_front_al.so \
     vendor/samsung/a5-common/proprietary/lib/libaec_algo_rear.so:system/lib/libaec_algo_rear.so \
-    vendor/samsung/a5-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/samsung/a5-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/samsung/a5-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/samsung/a5-common/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/samsung/a5-common/proprietary/etc/B05QL_s5k5e3yx_module_info.xml:system/etc/B05QL_s5k5e3yx_module_info.xml \
     vendor/samsung/a5-common/proprietary/etc/F13QS_imx135_module_info.xml:system/etc/F13QS_imx135_module_info.xml \
     vendor/samsung/a5-common/proprietary/bin/qseecomd:system/bin/qseecomd \
@@ -135,10 +131,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5-common/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
-    vendor/samsung/a5-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/samsung/a5-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/samsung/a5-common/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
-    vendor/samsung/a5-common/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
     vendor/samsung/a5-common/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
@@ -209,7 +201,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so \
-    vendor/samsung/a5-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/samsung/a5-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/samsung/a5-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/hw/sensors.msm8916.so:system/vendor/lib/hw/sensors.vendor.msm8916.so \
