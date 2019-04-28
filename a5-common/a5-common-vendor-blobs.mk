@@ -207,7 +207,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5-common/proprietary/lib/libalgobsx.so:system/lib/libalgobsx.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/hw/nfc_nci.msm8916.so:system/vendor/lib/hw/nfc_nci.msm8916.so \
     vendor/samsung/a5-common/proprietary/etc/sec_s3fwrn5_rfreg.bin:system/etc/sec_s3fwrn5_rfreg.bin \
-    vendor/samsung/a5-common/proprietary/vendor/firmware/sec_s3fwrn5_firmware.bin:system/vendor/firmware/sec_s3fwrn5_firmware.bin \
     vendor/samsung/a5-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/samsung/a5-common/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/samsung/a5-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
@@ -230,7 +229,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a5-common/proprietary/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so \
     vendor/samsung/a5-common/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/a5-common/proprietary/lib/libstlport.so:system/lib/libstlport.so \
-    vendor/samsung/a5-common/proprietary/lib/libprotobuf-cpp-l1te.so:system/lib/libprotobuf-cpp-l1te.so
+    vendor/samsung/a5-common/proprietary/lib/libprotobuf-cpp-l1te.so:system/lib/libprotobuf-cpp-l1te.so \
     vendor/samsung/a5-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/samsung/a5-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/samsung/a5-common/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
