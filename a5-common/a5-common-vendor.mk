@@ -20,7 +20,6 @@ DEVICE_PACKAGE_OVERLAYS += vendor/samsung/a5-common/overlay
 PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
-    InputDisabler \
     libmm-abl \
     libloc_api_v02 \
     libloc_ds_api \
